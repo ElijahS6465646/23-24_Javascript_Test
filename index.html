@@ -12,7 +12,7 @@
 	<body>
 		<div class="header">
 			<div class="container">
-				<h1 class="header-heading">Put Student Names Here</h1>
+				<h1 class="header-heading">Elijah Suarez's Test</h1>
 			</div>
 		</div>
 		<div class="nav-bar">
@@ -62,12 +62,25 @@
 					<hr>
 
 					<h3>Task 1 - The Image</h3>
-					<img onClick = "functionName()" src="assets/img/compIcon.png" id="imageTask1"><br />
-					<button style="display:none" id="buttonTask1">Click Me</button>
+					<img onmouseover="buttonHovered()" src="assets/img/compIcon.png" id="imageTask1"><br />
+					<button onclick="buttonClicked()" style="display: none" id="button">Click Me</button>
+
 					<hr>
 										
 					<h3>Task 2 - The Table</h3>
 					<!-- Buttons for this task should be entered before the table tag. -->
+					<button onclick="function changeRed(red) {
+
+					}
+					changeRed('red')" id="rbutton">Red</button>
+					<button onclick="function changeBlue(blue) {
+
+					}
+					changeBlue('blue')" id="bbutton" >Blue</button>
+					<button onclick="function changeGreen(green) {
+
+					}
+					changeGreen('green')" id="gbutton">Green</button>
 					
 					
 					<table class="table table-striped">
